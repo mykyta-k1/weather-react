@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: sticky;
+  height: 56px;
+  width: 100%;
+}
+
+.box-logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+.logo-icon {
+  height: 40px;
+}

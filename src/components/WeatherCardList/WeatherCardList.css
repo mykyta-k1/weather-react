@@ -1,0 +1,19 @@
+.card-slider {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  overflow: auto;
+}
+
+.error-fetch {
+  color: black;
+  display: inline;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.error-icon {
+  height: 50%;
+}
