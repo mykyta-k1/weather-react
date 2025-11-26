@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import { Footer } from './components/Footer';
 
 export function App() {
-  const { cityLocate, isLoadingLocate } = useDetectLocate();
+  const { cityLocate } = useDetectLocate();
 
   const [city, setCity] = useState<string | null>(null);
 
